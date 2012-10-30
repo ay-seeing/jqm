@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<title>基础页面</title>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header"><h1>Header</h1></div><!-- header-end -->
+		<div data-role="content">
+			<!-- 列表 -->
+			<ul data-role="listview" data-inset="true" data-filter="true">
+				<li><a href="#">Acura</a></li>
+				<li><a href="#">Audi</a></li>
+				<li><a href="#">BMW</a></li>
+				<li><a href="#">Cadillac</a></li>
+				<li><a href="#">Ferrari</a></li>
+			</ul>
+
+			<!-- 滑动条 -->
+			<form action="index.html"><label for="slider-0">滑动条</label><input type="range" name="slider" id="slider-0" value="25" min="0" max="100" /></form>
+
+			<!-- 按钮 -->
+			<a href="#" data-role="button" data-icon="star" data-iconpos="top">Button</a>
+			<a href="#" data-role="button" data-icon="arrow-r" data-iconpos="right">Button</a>
+			<a href="#" data-role="button" data-icon="arrow-l" data-iconpos="right">Button</a>
+			<a href="#" data-role="button" data-icon="arrow-t" data-iconpos="right">Button</a>
+			<a href="#" data-role="button" data-iconpos="right" data-theme="a">Button</a>
+
+		</div><!-- content-end -->
+		<div data-role="footer"><h1>Footer</h1></div><!-- footer-end -->
+	</div><!-- page-end -->
+</body>
+</html>
