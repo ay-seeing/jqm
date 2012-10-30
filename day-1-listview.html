@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<title>1day</title>
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header">
+		<h1>列表</h1>
+	</div>
+	<div data-role="content">
+		<h1>list view 列表视图</h1>
+		<p>第1种，不带其他属性，ul上有margin:-15px</p>
+		<ul data-role="listview">
+			<li><a href="#">Acura</a></li>
+			<li><a href="#">Audi</a></li>
+			<li><a href="#">BMW</a></li>
+			<li><a href="#">Cadillac</a></li>
+			<li><a href="#">Ferrari</a></li>
+		</ul>
+		<p>第2种，只带属性 data-inset="true"，ul上有margin: 1em 0;</p>
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#">Acura</a></li>
+			<li><a href="#">Audi</a></li>
+			<li><a href="#">BMW</a></li>
+			<li><a href="#">Cadillac</a></li>
+			<li><a href="#">Ferrari</a></li>
+		</ul>
+		<p>第3种，带属性 data-inset="true" data-filter="true"，ul上有margin: 1em 0;且列表上面会有搜索</p>
+		<ul data-role="listview" data-inset="true" data-filter="true">
+			<li><a href="#">Acura</a></li>
+			<li><a href="#">Audi</a></li>
+			<li><a href="#">BMW</a></li>
+			<li><a href="#">Cadillac</a></li>
+			<li><a href="#">Ferrari</a></li>
+		</ul>
+	</div>
+	<div data-role="footer">
+		<h1>底部</h1>
+	</div>
+</div>
+</body>
+</html>
